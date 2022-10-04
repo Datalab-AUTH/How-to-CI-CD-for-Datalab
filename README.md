@@ -91,6 +91,9 @@ have **Just the push event** selected.
 
 ![Add a Github Webhook](img/webhook.png)
 
+**NOTE:** It seems that you need to trigger the Jenkins job manually
+once, for the webhook triggers to have any effect.
+
 ## Deployment
 
 It is possible to have the VM that you have deployed your docker images
