@@ -53,9 +53,6 @@ Log into our [Jenkins instance](https://sdg1.csd.auth.gr/)
 * Under **Pipeline/Definition** choose **Pipeline script from SCM**
 * Under **Repository URL** add the URL to your repository in the form
   `git@github.com:Datalab-AUTH/myproject.git`
-* If it is a private repo, under **Credentials** select
-  **datalabauth (SSH keys used for the datalabauth Github account)**.
-  If it is a public repo, you don't have to add any credentials.
 
 ![Pipeline from git](img/pipeline_from_git.png)
 
