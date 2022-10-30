@@ -22,7 +22,7 @@ our private registry.
 
 ## Add a Jenkins Job
 
-Log into our [Jenkins instance](https://sdg1.csd.auth.gr/)
+Log into our [Jenkins instance](https://jenkins.csd.auth.gr/)
 (ask around for credentials) and
 
 * Click on "New Item"
@@ -81,7 +81,7 @@ want by hitting the respective "Play" button on the right.
 If you want to automatically run the Jenkins job at every `git push`
 that you run, go to your Github project **Settings** and then under
 **Webhooks** add a new one, set the **Payload URL** to
-`https://sdg1.csd.auth.gr/github-webhook/`
+`https://jenkins.csd.auth.gr/github-webhook/`
 **(make sure you add the trailing slash)**,
 set **Content type** to *application/json* and finally make sure you
 have **Just the push event** selected.

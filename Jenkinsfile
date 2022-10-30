@@ -20,8 +20,8 @@ pipeline {
 
     // the registry name
     // set to 'https://registry.hub.docker.com' for DockerHub
-    // or to 'https://sdg2.csd.auth.gr' for our private registry
-    registry = 'https://sdg2.csd.auth.gr'
+    // or to 'https://registry.csd.auth.gr' for our private registry
+    registry = 'https://registry.csd.auth.gr'
 
     // the credentials to the above registry as stored in Jenkins
     // set to 'dockerhub' for DockerHub 
